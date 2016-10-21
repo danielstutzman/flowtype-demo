@@ -1,0 +1,12 @@
+{
+  "name": "flowtype-demo",
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "flow-bin": "^0.33.0",
+    "flowtype": "^2.0.0",
+    "unflowify": "^1.0.0"
+  }
+}
